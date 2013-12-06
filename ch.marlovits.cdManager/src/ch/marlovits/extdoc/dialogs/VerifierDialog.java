@@ -12,6 +12,8 @@
  *  $Id: VerifierDialog.java 5639 2009-08-17 15:47:53Z rgw_ch $
  *******************************************************************************/
 
+// +++++ und nr 3
+
 package ch.marlovits.extdoc.dialogs;
 
 import java.io.File;
