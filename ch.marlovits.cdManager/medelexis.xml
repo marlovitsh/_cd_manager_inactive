@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service:service category="feature" id="ch.elexis.externe_dokumente" name="Iatrix externe Dokumente" provider="support@iatrix.org" type="Dokumentenverwaltung" version="2.0.0" xmlns:service="http://www.medelexis.ch/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.medelexis.ch/services ../medelexis-commons/rsc/service.xsd ">
+  <service:conditions>
+  	<service:roles>
+  		<service:role priceClass="fixed-low">
+  			<service:pricePerDB amount="5.00" currency="CHF"></service:pricePerDB>
+  		</service:role>
+  	</service:roles>
+  </service:conditions>
+  <service:description>Einfache Einbindung eines beliebigen Dokumentenverzeichnisses (Dateinamen müssen bestimmten Konventionen folgen)</service:description>
+  <service:depends>ch.medelexis.nucleus</service:depends>
+</service:service>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: cdManager Marlovits
+Bundle-SymbolicName: ch.elexis.cdManager;singleton:=true
+Bundle-Version: 1.0
+Bundle-Localization: plugin
+Require-Bundle: ch.elexis,
+ org.eclipse.core.runtime,
+ org.eclipse.ui,
+ ch.rgw.utility
+Bundle-Vendor: marlovits.ch
+Export-Package: ch.marlovits.cdManager
