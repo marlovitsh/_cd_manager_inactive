@@ -6,5 +6,10 @@ public class MyClass {
 		System.out.println("ouououou");
 		System.out.println("ouououou");
 		System.out.println("ouououou");
-	}
+
+		System.out.println("ouououou");
+		System.out.println("ouououou");
+		System.out.println("ouououou");
+		System.out.println("ouououou");
+}
 }
